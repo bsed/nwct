@@ -1,0 +1,17 @@
+server_addr: "tunnel.mbioq.com:443"
+trust_host_root_certs: false
+tunnels:
+  web:
+    proto:
+      http: "3000"
+  web2:
+    proto:
+      http: "8080"
+  tcp:
+    proto:
+      tcp: "3022"
+    remote_port: 4444
+  tcp2:
+    proto:
+      tcp: "22"
+    remote_port: 4445
