@@ -1,4 +1,4 @@
-server_addr: "tunnel.mbioq.com:443"
+server_addr: "mbioq.com:4443"
 trust_host_root_certs: false
 tunnels:
   web:
